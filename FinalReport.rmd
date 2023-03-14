@@ -81,7 +81,14 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
   
-The difference between the two race types is on a very large level. Around 1300 white people favor while only 191 black people are in favor. This amount has a large gap between the two opposing races. When it comes to opposing the Capital Offense, 35.93 black people oppose while 10.93 white people oppose.
+The difference between the two race types is on a very large level. Around 1300 white people favor while only 191 black people are in favor. This amount has a large gap between the two opposing races. When it comes to opposing the Capital Offense, 35.93 black people oppose while 10.93 white people oppose. 
+
+```{r}
+fisherXY (mydata$race,mydata$cappun, printAll=TRUE)
+```
+
+Now taking the fisherXY gives more data where we can see that each race, statistically, carries a different opinion where the t-text ends up being significant.
+
 ## More data version
 
 
@@ -89,5 +96,5 @@ The difference between the two race types is on a very large level. Around 1300 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
   
-
+In conclusion, we can confirm that more white people are in favor of the capital punishment while more black people are against it. The bar graph gives us the comparison of favors and oppositions between all three races. It shows how the white people have a higher bar in favor compared to the other two races. When looking at the second graph we see the comparison of two similar tables showing the percentage of votes for each race. The amount of whites compared to the other two races have a large difference in between ranging almost 20% under whites percentage which is at 80% in favor. The final graph shows the amount of votes between all three races where the whites carry the most votes in favor compared to the other races.
 
