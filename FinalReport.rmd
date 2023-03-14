@@ -59,8 +59,13 @@ According to this graph, it shows how the white favor the capital punishment whi
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
-
-
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+  
+Looknig at the data provided above, we see that the whites have a 65% in favor of capital punishment while black carries a 57% of opposing it. Now looking at the second table we can also see that the whites carry an 80% of favoring capital punishment while "other" carries a 10.51 % opposing it
 
 ## Now with More data
 
